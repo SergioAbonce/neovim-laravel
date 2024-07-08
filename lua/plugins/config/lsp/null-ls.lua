@@ -8,7 +8,6 @@ null_ls.setup {
     null_ls.builtins.formatting.jq,
     null_ls.builtins.code_actions.refactoring,
     null_ls.builtins.formatting.alejandra,
-    null_ls.builtins.diagnostics.luacheck,
     null_ls.builtins.formatting.stylua,
 
     null_ls.builtins.diagnostics.yamllint,
@@ -20,7 +19,8 @@ null_ls.setup {
       end,
     },
     null_ls.builtins.formatting.pint,
-    null_ls.builtins.formatting.blade_formatter
+    null_ls.builtins.formatting.blade_formatter,
+    null_ls.builtins.formatting.prettier,
   },
 }
 
